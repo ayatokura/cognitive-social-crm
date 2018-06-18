@@ -105,10 +105,10 @@ IBM Cloud DeploymentまたはSetup Local Deploymentのいずれかを設定し�
 4. `ダッシュボード` から新しく `リソースの作成` を行います。  
   - On the left, select `Apps` > `Cloudfoundry Apps`.
   - 左側メニューから `Cloud Foundry アプリ` を選択する
-  - 右側に表示された画面から `SDK for Node.js` を選択して作成する
+  - 右側に表示された画面から `SDK for Node.js` を選択して作成する
   - アプリケーションに任意の名前を付ける
 5. アプリケーションを作成した後は、アプリケーションの概要ページの `接続の作成` を選択します。
-6. 新しく作成したコンポーネント `Watson Assistant`、 `Natural Language Understanding`、 `Tone Analyzer`、および `Cloudant NoSQL DB` を [Connect] ボタンをクリックしてバインドします。
+6. 新しく作成したコンポーネント `Watson Assistant`、 `Natural Language Understanding`、 `Tone Analyzer`、および `Cloudant NoSQL DB` を [Connect] ボタンをクリックしてバインドします。
 7. Leave the `Connections` page open, as you will reference the credentials in the next step.
 
 #### ローカルでデプロイするためのセットアップ方法
