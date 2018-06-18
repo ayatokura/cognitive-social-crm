@@ -22,9 +22,9 @@ Credit goes to [Werner Vanzyl](https://www.linkedin.com/in/werner-vanzyl-326a589
 1. ツイートがTwitter によってプッシュされる
 2. Cognitive Social CRM アプリ(server.js) はツイートを処理する
 3. Watson Tone Analyzer サービスは、感情や感情の分析を行う
-4. Watson Natural Language Understanding サービスは、キーワードとエンティティを抽出する
-5. Watson Assistant サービスは、ツイートからインテントを抽出する
-6. ツイートとメタデータは Cloudant に保存する
+4. Watson Assistant サービスは、ツイートからインテントを抽出する
+5. Watson Natural Language Understanding サービスは、キーワードとエンティティを抽出する
+6. ツイートやメタデータは Cloudant に保存される
 7. Web UI にチャートやグラフ、ツイートを表示する
 
 ## 利用するコンポーネント
@@ -47,7 +47,7 @@ Credit goes to [Werner Vanzyl](https://www.linkedin.com/in/werner-vanzyl-326a589
 
 # 手順
 
-The setup is done in 3 primary steps.  You will download the code, setup the application and then deploy the code to IBM Cloud.  If you would like to run the code locally, there will be one more step to configure the credentials locally.
+セットアップで行うこととして、大きくは3つのステップがあります。コードをダウンロードしてアプリケーションをセットアップし、コードをIBM Cloudにデプロイします。コードをローカルで実行する場合は、ローカルで資格情報を設定する手順がもう1つ必要になります。
 
 1. [リポジトリーのクローン](#1-clone-the-repo)
 2. [依存関係のインストール](#2-install-dependencies)
